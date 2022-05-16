@@ -1,11 +1,12 @@
 /********** Template CSS **********/
 :root {
   --primary: #ffd200;
-  --secondary: #fe8800;
+  --secondary: #fffd7b;
   --light: #f5f5f5;
   --dark: #14141f;
   --aatselected: #ffd200;
-  --aatchoiced: #86b817;
+  --aatchoiced: #000;
+  --whatsapp: #48cb27;
 }
 
 .fw-medium {
@@ -16,12 +17,19 @@
   font-weight: 700 !important;
 }
 
-.back-to-top {
+.float {
   position: fixed;
-  display: none;
-  right: 45px;
-  bottom: 45px;
-  z-index: 99;
+  width: 60px;
+  height: 60px;
+  bottom: 40px;
+  right: 40px;
+  background-color: #25d366;
+  color: #fff;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 2px 2px 3px #999;
+  z-index: 100;
 }
 
 /*** Spinner ***/
@@ -203,6 +211,30 @@
 .hero-header-contact {
   background: linear-gradient(rgba(20, 20, 31, 0.1), rgba(20, 20, 31, 0.2)),
     url(../img/bg-contact.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hero-header-cruise {
+  background: linear-gradient(rgba(20, 20, 31, 0.1), rgba(20, 20, 31, 0.2)),
+    url(../img/bg-cruise.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hero-header-destinations {
+  background: linear-gradient(rgba(20, 20, 31, 0.1), rgba(20, 20, 31, 0.2)),
+    url(../img/bg-destinations.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hero-header-hotels {
+  background: linear-gradient(rgba(20, 20, 31, 0.1), rgba(20, 20, 31, 0.2)),
+    url(../img/bg-hotels.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
