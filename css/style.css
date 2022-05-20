@@ -193,13 +193,6 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
-.hero-header-about {
-  background: linear-gradient(rgba(20, 20, 31, 0.1), rgba(20, 20, 31, 0.2)),
-    url(../img/bg-hero.jpg);
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
 
 .hero-header-services {
   background: linear-gradient(rgba(20, 20, 31, 0.1), rgba(20, 20, 31, 0.2)),
