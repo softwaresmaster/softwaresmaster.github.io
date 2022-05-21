@@ -193,13 +193,6 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
-.hero-header-about {
-  background: linear-gradient(rgba(20, 20, 31, 0.1), rgba(20, 20, 31, 0.2)),
-    url(../img/bg-hero.jpg);
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
 
 .hero-header-services {
   background: linear-gradient(rgba(20, 20, 31, 0.1), rgba(20, 20, 31, 0.2)),
@@ -525,4 +518,10 @@
   margin-right: 0;
   padding-right: 0;
   border-right: none;
+}
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: repeat(8, 5vw);
+  grid-gap: 1.5rem;
 }
