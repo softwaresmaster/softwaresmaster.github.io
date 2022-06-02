@@ -228,18 +228,12 @@
 .hero-header-hotels {
   background: linear-gradient(rgba(20, 20, 31, 0.1), rgba(20, 20, 31, 0.2)),
     url(../img/bg-hotels.jpg);
+
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-.hero-header-tg {
-  background: linear-gradient(rgba(20, 20, 31, 0.1), rgba(20, 20, 31, 0.2)),
-    url(../img/bg-tg.jpg);
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
 .hero-header-visa {
   background: linear-gradient(rgba(20, 20, 31, 0.1), rgba(20, 20, 31, 0.2)),
     url(../img/bg-visa.jpg);
@@ -248,13 +242,6 @@
   background-size: cover;
 }
 
-.hero-header-ti {
-  background: linear-gradient(rgba(20, 20, 31, 0.1), rgba(20, 20, 31, 0.2)),
-    url(../img/bg-ti.jpg);
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
 .breadcrumb-item + .breadcrumb-item::before {
   color: rgba(255, 255, 255, 0.5);
 }
